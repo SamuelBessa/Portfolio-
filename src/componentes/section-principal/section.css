@@ -24,10 +24,8 @@ section {
         flex-direction: column;
         gap: 50px;
         padding: 0 20px;
-    }
-
-    .info {
-        text-align: center;
+        align-items: center;
+        margin: 0 auto;
     }
 
     .foto {
@@ -42,7 +40,6 @@ section {
 
     .texto {
         max-width: 90vw;
-        padding: 0 20px;
     }
 }
 

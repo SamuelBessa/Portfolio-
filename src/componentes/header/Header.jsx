@@ -5,26 +5,37 @@ export function Header() {
         <header>
             <div className="flex header">
                 <div>
-                    <h1 className="fundo-logo">SB</h1>
+                    <h1 className="logo">SB</h1>
                 </div>
 
                 <nav>
                     <ul className="header-link">
-                        <li>HOME</li>
-                        <li>SOBRE</li>
-                        <li>PROJETOS</li>
-                        <li>TECNOLOGIAS</li>
-                        <li>CONTATOS</li>
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#">SOBRE</a>
+                        </li>
+                        <li>
+                            <a href="#">PROJETOS</a>
+                        </li>
+                        <li>
+                            <a href="#">TECNOLOGIAS</a>
+                        </li>
+                        <li>
+                            <a href="#">CONTATOS</a>
+                        </li>
                     </ul>
                 </nav>
 
                 <div>
-                    <div class="toggle-switch">
-                        <label class="switch-label">
-                            <input type="checkbox" class="checkbox" />
-                                <span class="slider"></span>
-                        </label>
-                    </div>
+                    <input id="menu-hamburguer" type="checkbox" />
+
+                    <label htmlFor="menu-hamburguer">
+                        <div className="menu">
+                            <span className="hamburguer"></span>
+                        </div>
+                    </label>
                 </div>
             </div>
         </header>
