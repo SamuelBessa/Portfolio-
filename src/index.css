@@ -1,0 +1,50 @@
+:root {
+  --font-extra: "Holtwood One SC", serif;
+  --font-primaria: "Poppins", serif;
+  --font-logo: "Lavishly Yours", cursive;
+
+  --cor-primaria: #082032;
+  --cor-secundaria: #334756;
+  --cor-texto: #F11A7B;
+  --cor-footer: #424242;
+  --cor-logo: #8a2be2;
+
+  --cor-branca: #FFFFFF;
+  --cor-preta: #000000;
+}
+
+body {
+  font-family: var(--font-primaria);
+  font-weight: 300;
+  color: #ffffff;
+  background-color: var(--cor-primaria);
+  transition: background-color 0.5s, color 0.5s;
+}
+
+html{
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+.flex{
+  display: flex;
+  padding: 0 40px;
+  align-items: center;
+}
+
+.centralizado {
+  display: flex;
+  padding: 0 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
