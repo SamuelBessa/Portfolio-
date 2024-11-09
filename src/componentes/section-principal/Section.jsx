@@ -8,7 +8,7 @@ export function Section() {
 
     return (
         <>
-        <section>
+        <section id="home">
             <div className="centralizado">
                 <div className="info">
                     <h1>Olá, sou Samuel Bessa🖐</h1>

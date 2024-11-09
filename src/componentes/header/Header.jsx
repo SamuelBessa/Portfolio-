@@ -11,10 +11,10 @@ export function Header() {
                 <nav>
                     <ul className="header-link">
                         <li>
-                            <a href="#">HOME</a>
+                            <a href="home">HOME</a>
                         </li>
                         <li>
-                            <a href="#">SOBRE</a>
+                            <a href="#sobre">SOBRE</a>
                         </li>
                         <li>
                             <a href="#">PROJETOS</a>
