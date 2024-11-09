@@ -2,7 +2,6 @@ import "./sobre-mim.css"
 
 export function SobreMin() {
     return (
-        <>
         <section id="sobre">
             <div className="conteiner">
                 <div className="sobre-mim">
@@ -16,6 +15,5 @@ export function SobreMin() {
                 </div>
             </div>
         </section>
-        </>
     )
 }

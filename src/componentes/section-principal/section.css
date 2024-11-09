@@ -1,6 +1,7 @@
-section {
+#home {
     height: 100vh;
     align-content: center;
+    background-color: var(--cor-primaria);
 }
 
 .sub-titulo {

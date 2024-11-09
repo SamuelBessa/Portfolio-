@@ -7,7 +7,6 @@ export function Section() {
     const fotoadm = foto
 
     return (
-        <>
         <section id="home">
             <div className="centralizado">
                 <div className="info">
@@ -26,6 +25,5 @@ export function Section() {
                 </div>
             </div>
         </section>
-        </>
     )
 }

@@ -1,0 +1,24 @@
+#tecnologias {
+    background-color: var(--cor-secundaria);
+    min-height: 100vh;
+    height: 100%;
+    padding: 0 200px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#tecnologias h2 {
+    padding: 70px 0;
+}
+
+.div-tec ul {
+    display: grid;        
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: 0 auto;
+    grid-gap: 40px;
+    text-align: center;
+}

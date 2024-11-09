@@ -4,9 +4,15 @@ img {
     object-fit: cover;
 }
 
+#projetos {
+    background-color: var(--cor-primaria);
+    min-height: 100vh;
+    height: 100%;
+    padding: 50px 0;
+}
+
 .titulo {
     text-align: center;
-    margin-top: 50px;
 }
 
 .container {

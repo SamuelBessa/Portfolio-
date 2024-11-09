@@ -46,47 +46,45 @@ export function Projetos() {
     };
 
     return (
-        <>
-            <section id="projetos">
-                <h2 className="titulo">Projetos</h2>
+        <section id="projetos">
+            <h2 className="titulo">Projetos</h2>
 
-                <div className="container">
-                    <ul className="flex">
-                        {Object.values(InfoProjetos).map((projeto, index) => (
-                            <li key={index}>
-                                <div className="div-img">
-                                    <img src={projeto.imagem} alt={projeto.nome} />
-                                    <h2>
-                                        {projeto.nome}
-                                    </h2>
-                                </div>
+            <div className="container">
+                <ul className="flex">
+                    {Object.values(InfoProjetos).map((projeto, index) => (
+                        <li key={index}>
+                            <div className="div-img">
+                                <img src={projeto.imagem} alt={projeto.nome} />
+                                <h2>
+                                    {projeto.nome}
+                                </h2>
+                            </div>
 
-                                <div>
-                                    <p className="text-align">{projeto.sobre}</p>
-                                    <p className="text-align">
-                                        <strong>Tecnologias usadas:</strong>
-                                        {projeto.tecnologias}
-                                    </p>
-                                    <a className="btn" target="_blank" href={projeto.linkProjeto} >Ver Projeto</a>
-                                        
-                                    <a className="btn" target="_blank" href={projeto.linkRepositorio} >Ver Repositorio</a>  
-                                </div>
-                            </li>
-                        ))}
+                            <div>
+                                <p className="text-align">{projeto.sobre}</p>
+                                <p className="text-align">
+                                    <strong>Tecnologias usadas:</strong>
+                                    {projeto.tecnologias}
+                                </p>
+                                <a className="btn" target="_blank" href={projeto.linkProjeto} >Ver Projeto</a>
 
-                    </ul>
-                </div>
+                                <a className="btn" target="_blank" href={projeto.linkRepositorio} >Ver Repositorio</a>
+                            </div>
+                        </li>
+                    ))}
 
-                <div className="btn-mais-projetos flex">
-                    <button className="btn-projetos">Mais Projetos</button>
-                </div>
+                </ul>
+            </div>
 
-                <div className="texto-contato flex">
-                    <h2>
-                        <a href="">Vamos trabalhar juntos 👨‍💻</a>
-                    </h2>
-                </div>
-            </section>
-        </>
+            <div className="btn-mais-projetos flex">
+                <button className="btn-projetos">Mais Projetos</button>
+            </div>
+
+            <div className="texto-contato flex">
+                <h2>
+                    <a href="">Vamos trabalhar juntos 👨‍💻</a>
+                </h2>
+            </div>
+        </section>
     )
 }
