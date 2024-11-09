@@ -17,13 +17,13 @@ export function Header() {
                             <a href="#sobre">SOBRE</a>
                         </li>
                         <li>
-                            <a href="#">PROJETOS</a>
+                            <a href="#projetos">PROJETOS</a>
                         </li>
                         <li>
-                            <a href="#">TECNOLOGIAS</a>
+                            <a href="#tecnologias">TECNOLOGIAS</a>
                         </li>
                         <li>
-                            <a href="#">CONTATOS</a>
+                            <a href="#contatos">CONTATOS</a>
                         </li>
                     </ul>
                 </nav>

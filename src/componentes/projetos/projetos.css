@@ -1,0 +1,61 @@
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.texto-contato {
+    padding-top: 80px;
+}
+
+.texto-contato a:hover {
+    color: var(--cor-texto);
+}
+
+.btn-mais-projetos {
+    padding-top: 50px;
+    justify-content: center;
+}
+
+
+.btn-projetos {
+    width: 120px;
+    height: 45px;
+    color: var(--cor-texto);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.7s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .btn-projetos:hover {
+    background-color: #F11A7B;
+    color: #FFFFFF;
+  }
+
+  .text-align {
+    text-align: start;
+    padding: 0 20px;
+  }
+
+  .container ul li h2 {
+    font-weight: 500;    
+    position: absolute;      
+    padding-left: 40px;
+    padding-bottom: 10px;
+    bottom: 0;
+}
+
+.div-img {
+    position: relative;
+}

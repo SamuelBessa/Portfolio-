@@ -53,3 +53,14 @@ a{
   justify-content: center;
   flex-direction: row;
 }
+
+.btn {
+  color: var(--cor-texto);
+  font-weight: 500;
+  transition: 0.5s ease-in-out;
+  margin: 10px;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+}
