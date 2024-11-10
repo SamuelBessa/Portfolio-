@@ -82,7 +82,10 @@ export function Projetos() {
 
             <div className="texto-contato flex">
                 <h2>
-                    <a href="">Vamos trabalhar juntos 👨‍💻</a>
+                    <a href="https://wa.me/5538999315290"
+                    target="_blank" rel="noopener noreferrer">
+                        Vamos trabalhar juntos 👨‍💻
+                    </a>
                 </h2>
             </div>
         </section>

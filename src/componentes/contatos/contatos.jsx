@@ -14,16 +14,30 @@ export function Contatos() {
                 </div>
 
                 <div className="redes-sociais">
-                    <a href="#" className="outer-shadow">
+                    <a
+                    href="mailto:dev.samuelbessa@gmail.com"
+                    className="outer-shadow">
                         <FontAwesomeIcon icon={faEnvelope} style={{color: "#63E6BE",}} />
                     </a>
-                    <a href="#" className="outer-shadow">
+
+                    <a
+                    href="https://www.linkedin.com/in/samuel-bessa-29a74a331/"
+                    target="_blank" rel="noopener noreferrer"
+                    className="outer-shadow">
                         <FontAwesomeIcon icon={faLinkedinIn} style={{color: "#63E6BE",}} />
                     </a>
-                    <a href="#" className="outer-shadow">
+
+                    <a
+                    href="https://github.com/SamuelBessa"
+                    target="_blank" rel="noopener noreferrer"
+                    className="outer-shadow">
                         <FontAwesomeIcon icon={faGithub} style={{color: "#d6d",}} />
                     </a>
-                    <a href="#" className="outer-shadow">
+
+                    <a
+                    href="https://wa.me/5538999315290"
+                    target="_blank" rel="noopener noreferrer"
+                    className="outer-shadow">
                         <FontAwesomeIcon icon={faWhatsapp} style={{color: "#63E6BE",}} />
                     </a>
                 </div>

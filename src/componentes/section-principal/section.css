@@ -20,6 +20,25 @@
     border-radius: 50%;
 }
 
+.redes-sociais {
+    justify-self: self-start;
+    padding-top: 10px;
+}
+  
+.redes-sociais a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+    
+.outer-shadow {
+    box-shadow: 3px 3px #1b1b1b, -3px -3px 3px #5f5353;
+}
+
 @media (max-width: 1005px) {
     .centralizado {
         flex-direction: column;
