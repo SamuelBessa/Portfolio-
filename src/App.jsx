@@ -1,3 +1,4 @@
+import { Contatos } from "./componentes/contatos/contatos"
 import { Header } from "./componentes/header/Header"
 import { Projetos } from "./componentes/projetos/Projetos"
 import { Section } from "./componentes/section-principal/Section"
@@ -13,6 +14,7 @@ function App() {
     <SobreMin />
     <Projetos />
     <Tecnologias />
+    <Contatos />
     </>
   )
 }

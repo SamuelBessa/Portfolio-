@@ -1,0 +1,30 @@
+footer {
+    height: 200px;
+    background-color: var(--cor-footer);
+    padding-top: 40px;
+    justify-items: center;
+}
+
+.redes-sociais {
+  justify-self: center;
+  padding-top: 10px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .redes-sociais a:hover {
+    color: var(--cor-texto);
+  }
+  
+  .outer-shadow {
+    box-shadow: 3px 3px #222327, -3px -3px 3px #332f2f;
+  }
