@@ -57,17 +57,6 @@ export function Tecnologias() {
             sobre: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat aperiam perspiciatis neque iusto id porro dicta reprehenderit, eos laudantium molestiae est, saepe animi cupiditate accusamus deleniti, expedita vel in quidem.",
         },
 
-        github: {
-            nome: "GitHub",
-            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
-            sobre: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat aperiam perspiciatis neque iusto id porro dicta reprehenderit, eos laudantium molestiae est, saepe animi cupiditate accusamus deleniti, expedita vel in quidem.",
-        },
-
-        figma: {
-            nome: "Figma",
-            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
-            sobre: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat aperiam perspiciatis neque iusto id porro dicta reprehenderit, eos laudantium molestiae est, saepe animi cupiditate accusamus deleniti, expedita vel in quidem.",
-        },
     }
 
     return (

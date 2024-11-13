@@ -11,6 +11,11 @@ img {
     padding: 50px 0;
 }
 
+#projetos ul {
+    display: grid;        
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
 .titulo {
     text-align: center;
 }
@@ -33,7 +38,6 @@ img {
     justify-content: center;
 }
 
-
 .btn-projetos {
     width: 120px;
     height: 45px;
@@ -52,6 +56,7 @@ img {
   .text-align {
     text-align: start;
     padding: 0 20px;
+    max-width: 500px;
   }
 
   .container ul li h2 {

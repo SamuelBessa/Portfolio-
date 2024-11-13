@@ -21,7 +21,7 @@ export function Contatos() {
                     </a>
 
                     <a
-                    href="https://www.linkedin.com/in/samuel-bessa-29a74a331/"
+                    href="https://www.linkedin.com/in/dev-samuelbessa/"
                     target="_blank" rel="noopener noreferrer"
                     className="outer-shadow">
                         <FontAwesomeIcon icon={faLinkedinIn} style={{color: "#63E6BE",}} />
@@ -31,7 +31,7 @@ export function Contatos() {
                     href="https://github.com/SamuelBessa"
                     target="_blank" rel="noopener noreferrer"
                     className="outer-shadow">
-                        <FontAwesomeIcon icon={faGithub} style={{color: "#d6d",}} />
+                        <FontAwesomeIcon icon={faGithub} style={{color: "#63E6BE",}} />
                     </a>
 
                     <a

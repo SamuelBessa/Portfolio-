@@ -50,7 +50,7 @@ export function Projetos() {
             <h2 className="titulo">Projetos</h2>
 
             <div className="container">
-                <ul className="flex">
+                <ul>
                     {Object.values(InfoProjetos).map((projeto, index) => (
                         <li key={index}>
                             <div className="div-img">

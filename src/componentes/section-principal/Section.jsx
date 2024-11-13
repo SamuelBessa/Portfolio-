@@ -30,7 +30,7 @@ export function Section() {
                         </a>
 
                         <a
-                        href="https://www.linkedin.com/in/samuel-bessa-29a74a331/"
+                        href="https://www.linkedin.com/in/dev-samuelbessa/"
                         target="_blank" rel="noopener noreferrer"
                         className="outer-shadow">
                             <FontAwesomeIcon icon={faLinkedinIn} style={{color: "#0ce629", width: "15px", marginBottom: "20px"}} />
