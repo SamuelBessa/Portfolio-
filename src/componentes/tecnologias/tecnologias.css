@@ -2,12 +2,12 @@
     background-color: var(--cor-secundaria);
     min-height: 100vh;
     height: 100%;
-    padding: 0 200px;
+    padding: 0 200px 50px;
 }
 
 .img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
 }
 
