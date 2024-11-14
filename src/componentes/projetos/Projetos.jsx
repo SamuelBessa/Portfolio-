@@ -27,7 +27,7 @@ export function Projetos() {
         },
 
         projeto3: {
-            nome: "Projeto 3",
+            nome: "Consumindo API GitHub",
             imagem: Suíça,
             sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis laboriosam numquam, vitae incidunt alias, cupiditate non ut aliquid labore ad voluptatem excepturi voluptates repellat fugit sint pariatur? Illum, voluptas?",
             tecnologias: " HTML, CSS, JavaScript, React",
@@ -36,7 +36,7 @@ export function Projetos() {
         },
 
         projeto4: {
-            nome: "Projeto 4",
+            nome: "Landing-page xyz",
             imagem: Outono,
             sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis laboriosam numquam, vitae incidunt alias, cupiditate non ut aliquid labore ad voluptatem excepturi voluptates repellat fugit sint pariatur? Illum, voluptas?",
             tecnologias: " HTML, CSS, JavaScript, React",

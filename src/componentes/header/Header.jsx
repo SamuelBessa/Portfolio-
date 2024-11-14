@@ -54,6 +54,8 @@ export function Header() {
                 </nav>
 
                 <div>
+                    <button className="highlight">Curriculo</button>
+                    
                     <input id="menu-hamburguer" type="checkbox" />
 
                     <label htmlFor="menu-hamburguer">
