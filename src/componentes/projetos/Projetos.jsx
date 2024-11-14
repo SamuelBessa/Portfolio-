@@ -60,7 +60,8 @@ export function Projetos() {
                                 </h2>
                             </div>
 
-                            <div>
+                            <div className="
+                            div-descricao">
                                 <p className="text-align">{projeto.sobre}</p>
                                 <p className="text-align">
                                     <strong>Tecnologias usadas:</strong>

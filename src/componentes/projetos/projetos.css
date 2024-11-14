@@ -14,6 +14,7 @@ img {
 #projetos ul {
     display: grid;        
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px;
 }
 
 .titulo {
@@ -46,20 +47,24 @@ img {
     font-weight: 700;
     transition: 0.7s ease-in-out;
     cursor: pointer;
-  }
+}
   
-  .btn-projetos:hover {
+.btn-projetos:hover {
     background-color: #F11A7B;
     color: #FFFFFF;
-  }
+}
 
-  .text-align {
+.div-descricao {
+    padding: 0 25px;
+}
+
+.text-align {
     text-align: start;
-    padding: 0 20px;
-    max-width: 500px;
-  }
+    max-width: 430px;
+    justify-self: center;
+}
 
-  .container ul li h2 {
+.container ul li h2 {
     font-weight: 500;    
     position: absolute;      
     padding-left: 40px;
@@ -69,4 +74,34 @@ img {
 
 .div-img {
     position: relative;
+}
+
+@media(max-width: 1260px){
+    .container ul li h2 {
+        padding-left: 115px;
+    }
+}
+
+@media(max-width: 1160px){
+    .container ul li h2 {
+        padding-left: 85px;
+    }
+}
+
+@media(max-width: 1000px){
+    .container ul li h2 {
+        padding-left: 55px;
+    }
+}
+
+@media(max-width: 900px){
+    .container ul li h2 {
+        padding-left: 35px;
+    }
+}
+
+@media(max-width: 830px){
+    .container ul li h2 {
+        padding-left: 225px;
+    }
 }

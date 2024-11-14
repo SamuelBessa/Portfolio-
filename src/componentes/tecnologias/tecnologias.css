@@ -3,6 +3,7 @@
     min-height: 100vh;
     height: 100%;
     padding: 0 200px 50px;
+    justify-items: center;
 }
 
 .img {
