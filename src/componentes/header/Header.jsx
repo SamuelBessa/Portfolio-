@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 
 export function Header() {
 
-
     const [isVisible, setIsVisible] = useState(false);
     const [lastScrollY, setLastScrollY] = useState(window.scrollY);
   
@@ -24,6 +23,10 @@ export function Header() {
       };
     }, [lastScrollY]);
 
+    const [isChecked, setIsChecked] = useState(false);
+    const handleInputChange = () => {
+        setIsChecked(!isChecked);
+    };
 
 
     return (
@@ -34,29 +37,22 @@ export function Header() {
                 </div>
 
                 <nav>
-                    <ul className="header-link">
-                        <li>
-                            <a href="home">HOME</a>
-                        </li>
-                        <li>
-                            <a href="#sobre">SOBRE</a>
-                        </li>
-                        <li>
-                            <a href="#projetos">PROJETOS</a>
-                        </li>
-                        <li>
-                            <a href="#tecnologias">TECNOLOGIAS</a>
-                        </li>
-                        <li>
-                            <a href="#contatos">CONTATOS</a>
-                        </li>
+                    <ul className={`header-link ${isChecked ? 'active' : ''}`}>
+                        <li><a href="./">HOME</a></li>
+                        <li><a href="#sobre">SOBRE</a></li>
+                        <li><a href="#projetos">PROJETOS</a></li>
+                        <li><a href="#tecnologias">TECNOLOGIAS</a></li>
+                        <li><a href="#contatos">CONTATOS</a></li>
                     </ul>
                 </nav>
 
                 <div>
-                    <button className="highlight">Curriculo</button>
-                    
-                    <input id="menu-hamburguer" type="checkbox" />
+                    <input
+                        id="menu-hamburguer"
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleInputChange}
+                    />
 
                     <label htmlFor="menu-hamburguer">
                         <div className="menu">

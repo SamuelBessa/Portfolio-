@@ -19,6 +19,7 @@ body {
   color: #ffffff;
   background-color: var(--cor-primaria);
   transition: background-color 0.5s, color 0.5s;
+  overflow-x: hidden;
 }
 
 html{
