@@ -1,7 +1,7 @@
-import Céu from "./img/Céu.jpg";
-import Café from "./img/Café.jpg";
-import Suíça from "./img/Suíça.jpg";
-import Outono from "./img/Outono.jpg";
+import pokemon from "./img/pokemon.png"
+import portfolio from "./img/portfolio.png"
+import xyz from "./img/xyz-tela.gif.gif";
+import apigithub from "./img/api-github.png";
 
 import "./projetos.css"
 
@@ -10,38 +10,38 @@ export function Projetos() {
     const InfoProjetos = {
         projeto1: {
             nome: "Pokedex",
-            imagem: Céu,
-            sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis laboriosam numquam, vitae incidunt alias, cupiditate non ut aliquid labore ad voluptatem excepturi voluptates repellat fugit sint pariatur? Illum, voluptas?",
+            imagem: pokemon,
+            sobre: "Esta aplicação é uma Pokédex interativa desenvolvida em React.js, que utiliza a API PokeAPI para buscar dados de Pokémon em tempo real. A aplicação exibe uma lista de Pokémon que o usuário pode explorar e acessar detalhes específicos. O projeto implementa funcionalidades como alternância de temas (claro e escuro), carregamento dinâmico de dados e navegação entre páginas, proporcionando uma experiência fluida e moderna para os usuários.",
             tecnologias: " HTML, CSS, JavaScript, React",
             linkRepositorio: "https://github.com/SamuelBessa/Pokedex",
-            linkProjeto: "",
+            linkProjeto: "https://samuelbessa.github.io/Pokedex/",
         },
 
         projeto2: {
-            nome: "Gerador de conselhos",
-            imagem: Café,
-            sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis laboriosam numquam, vitae incidunt alias, cupiditate non ut aliquid labore ad voluptatem excepturi voluptates repellat fugit sint pariatur? Illum, voluptas?",
+            nome: "Portfólio",
+            imagem: portfolio,
+            sobre: "",
             tecnologias: " HTML, CSS, JavaScript, React",
-            linkRepositorio: "",
+            linkRepositorio: "https://github.com/SamuelBessa/Portfolio-",
             linkProjeto: "",
         },
 
         projeto3: {
             nome: "Consumindo API GitHub",
-            imagem: Suíça,
-            sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis laboriosam numquam, vitae incidunt alias, cupiditate non ut aliquid labore ad voluptatem excepturi voluptates repellat fugit sint pariatur? Illum, voluptas?",
-            tecnologias: " HTML, CSS, JavaScript, React",
-            linkRepositorio: "",
-            linkProjeto: "",
+            imagem: apigithub,
+            sobre: "Este projeto foi uma quest do curso dev-quest, desenvolvida para aplicar conhecimentos de HTML, CSS e JavaScript e finalizar um módulo do curso. Trata-se de um projeto que consome uma a API do GitHub e busca dados de um usuário mostrando as informações na tela",
+            tecnologias: " HTML, CSS, JavaScript",
+            linkRepositorio: "https://github.com/SamuelBessa/fetch-github-api",
+            linkProjeto: "https://samuelbessa.github.io/fetch-github-api/",
         },
 
         projeto4: {
             nome: "Landing-page xyz",
-            imagem: Outono,
-            sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis laboriosam numquam, vitae incidunt alias, cupiditate non ut aliquid labore ad voluptatem excepturi voluptates repellat fugit sint pariatur? Illum, voluptas?",
-            tecnologias: " HTML, CSS, JavaScript, React",
-            linkRepositorio: "",
-            linkProjeto: "",
+            imagem: xyz,
+            sobre: "Este projeto foi desenvolvido como parte de um exercício prático após as aulas sobre CSS Grid. O objetivo era aperfeiçoar os conceitos aprendidos no curso. Trata-se de uma landing page simples para uma agência fictícia, XYZ, com toda a estrutura necessária para esse tipo de página.",
+            tecnologias: " HTML, CSS",
+            linkRepositorio: "https://github.com/SamuelBessa/landing-page-com-CSS-e-HTML-avan-ado-",
+            linkProjeto: "https://samuelbessa.github.io/landing-page-com-CSS-e-HTML-avan-ado-/",
         }
     };
 
