@@ -20,7 +20,7 @@ export function Projetos() {
         projeto2: {
             nome: "Portfólio",
             imagem: portfolio,
-            sobre: "",
+            sobre: "Este projeto é um portfólio pessoal desenvolvido para apresentar minhas habilidades, projetos e experiências como desenvolvedor front-end. Nele, busquei criar uma identidade visual que reflete profissionalismo, elegância e inovação, utilizando React e React Router para navegação entre as seções.",
             tecnologias: " HTML, CSS, JavaScript, React",
             linkRepositorio: "https://github.com/SamuelBessa/Portfolio-",
             linkProjeto: "",
