@@ -2,10 +2,16 @@ import pokemon from "./img/pokemon.png"
 import portfolio from "./img/portfolio.png"
 import xyz from "./img/xyz-tela.gif.gif";
 import apigithub from "./img/api-github.png";
-
 import "./projetos.css"
+import { useNavigate } from "react-router-dom";
 
 export function Projetos() {
+
+    const navigate = useNavigate();
+
+    const goToMaisProjeto = () => {
+        navigate("/mais_projetos");
+    };
 
     const InfoProjetos = {
         projeto1: {
@@ -78,7 +84,7 @@ export function Projetos() {
             </div>
 
             <div className="btn-mais-projetos flex">
-                <button className="btn-projetos">Mais Projetos</button>
+                <button className="btn-projetos" onClick={goToMaisProjeto}>Mais Projetos</button>
             </div>
 
             <div className="texto-contato flex">
